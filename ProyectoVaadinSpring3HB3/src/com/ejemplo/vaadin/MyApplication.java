@@ -27,6 +27,7 @@ public class MyApplication extends Application implements ClickListener {
 	private UsuarioForm formUser = null;
     private Button btnReset = null;
     private Button btnInsert = null;
+    private String saludo = "Hola";
 	
 	@Autowired
     ServicioUsuarios servicioUsuarios;
